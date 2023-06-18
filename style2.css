@@ -1,0 +1,115 @@
+body{
+	font-family: Arial;
+	font-size: 13px;
+	color: #333333;
+
+}
+#header{
+	background: #333333;
+}
+#logo img{
+	height: 100px;
+}
+#search{
+	padding-top: 40px;
+}
+#search input{
+border-radius: 3px 0 0 3px;
+width: 280px;
+height: 30px;
+font-size: 13px;
+}
+#search button{
+border-radius: 3px 0 0 0px;
+background: green;
+height: 30px;
+}
+.fa-shopping-cart{
+	padding-top: 40px;
+	height: 40px;
+}
+#cart a:hover{
+background: black;
+cursor:  pointer;
+}
+#menu{
+	background: white;
+	
+}
+.fa-fa-star{
+	size: 10px;
+}
+..ratingresult {
+    float: left;
+    font-size: 14px;
+    color: #288ad6;
+    padding: 10px 10px 0 11px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: block;
+}
+.star-checked{
+	 color: #FE7;
+	 size: 4px;
+}
+  .navbar{
+  width: 100%;
+  height: 80px;
+    
+    margin: auto;
+    background-color: #10473f;
+}
+
+.navbar-brand{
+  font-size: 40px;
+  margin-right: 100px;
+  }
+  .nav-item{
+    border: 1px;
+   
+    font-size: 30px;
+    border-radius: 10px;
+    
+    margin: 5px;
+ 
+
+  }
+  .nav-item :hover {
+    background-color: green ;
+    
+  }
+  .nav-link{
+    font-size: 20px;
+    padding: auto;
+    color: white;
+    
+  }
+
+  .nav-item dropdown{
+    right: 0px;
+  }
+ .navbar-brand img{
+  height: 70px;
+  float: left;
+  margin-left: 170px;
+ }
+ .fs-dtbox {
+    background: #fff;
+    margin-bottom: 20px;
+}
+.picture .icon-position {
+    position: relative;
+}
+.fa-facebook-f{
+  color: white;
+}
+.fa-instagram{
+  color: white;
+}
+.fa-user{
+  color: white;
+}

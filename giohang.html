@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  .<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/45.0/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="giohang.css">
+
+<script src="giohang.js"></script>
+ <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://unpkg.com/swiper/js/swiper.js"></script>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<!-- Sweet Alert -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+<!-- Subiz -->
+<script>
+  (function(s, u, b, i, z){
+    u[i]=u[i]||function(){
+      u[i].t=+new Date();
+      (u[i].q=u[i].q||[]).push(arguments);
+    };
+    z=s.createElement('script');
+    var zz=s.getElementsByTagName('script')[0];
+    z.async=1; z.src=b; z.id='subiz-script';
+    zz.parentNode.insertBefore(z,zz);
+  })(document, window, 'https://widgetv4.subiz.com/static/js/app.js', 'subiz');
+  subiz('setAccount', 'acqroptvldtfavmutoqs');
+</script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light ">
+<a class="navbar-brand" href="../HTML/cuoiky.html"><img src="../Images/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<br><br><form class="form-inline my-2 my-lg-0 ml-auto">
+    <input class="form-control" type="search" placeholder="Tìm Kiếm" aria-label="Search">
+    <button class="btn btn-success" type="submit"><i class="fa fa-search"></i></button>
+  </form>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-lg-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="E:\BaiTapHTML\HTML\cuoiky.html" style="color: red" style=""><i class="fa fa-home" aria-hidden="true"></i>Trang Chủ
+ </a>
+      </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="E:\BaiTapHTML\HTML\iphone1.html" style="color: white"><i class="fa fa-mobile" aria-hidden="true"></i>
+  Điện Thoại </a>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="#" style="color: white"><i class="fa fa-newspaper-o"></i> Tin Tức</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#" style="color: white"> <i class="fa fa-question" aria-hidden="true"></i> Hỏi Đáp</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-effect waves-light" href="https://www.facebook.com/levantoann">
+         <i class="fa fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-effect waves-light">
+         <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="nav-item dropdown" >
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-user"></i> </a>
+        <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+          <a class="dropdown-item" href="./ElaAdmin-master/index.html">Quản Lý</a>
+          <a class="dropdown-item" href="C:\Users\ASUS\Desktop\BaiTapHTML\BaiTapHTML\HTML\login.html">Đăng Nhập</a>
+          <a class="dropdown-item" href="#">dang_xuat</a>
+        </div>
+      </li>
+     
+      
+    </ul>
+
+   
+  </div>
+</nav>
+
+<table class="listSanPham">
+		<tbody>
+			<tr>
+				<th>Sản phẩm</th>
+				<th>Giá</th>
+				<th>Số lượng</th>
+				<th>Thành tiền</th>
+				<th>Xóa</th>
+			</tr>
+			<tr>
+				<td class="noPadding">
+					<a target="_blank" href="chitietsanpham.html?4" title="Xem chi tiết">
+						<img class="smallImg" src="https://phucanhcdn.com/media/product/36958_iph11_gr.jpg">
+						<br>
+						iPhone 11 PRO MAX
+					</a>
+				</td>
+				<td class="alignRight">36.990.000 đ</td>
+				<td class="soluong">
+					<button onclick="giamSoLuong('4')"><i class="fa fa-minus"></i></button>
+					<input size="1" onchange="capNhatSoLuongFromInput(this, '4')" value="1">
+					<button onclick="tangSoLuong('4')"><i class="fa fa-plus"></i></button>
+				</td>
+				<td class="alignRight">36.990.000 đ</td>
+				<td class="noPadding"> 
+					<i class="fa fa-trash" onclick="xoaSanPhamTrongGioHang(4,'iPhone 11 PRO MAX')"></i> 
+				</td>
+			</tr>
+		
+			<tr style="font-weight:bold; text-align:center">
+				<td colspan="3">TỔNG TIỀN: </td>
+				<td class="alignRight" style="color:red">36.990.000 đ</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="5">
+					<button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="thanhToan()">
+						<i class="fa fa-usd"></i> Thanh Toán 
+					</button> 
+					<button class="btn btn-danger" onclick="xoaHet()">
+						<i class="fa fa-trash-o"></i> Xóa hết 
+					</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<a href="" id="back-to-top"  style="display: block;"><i class="fa fa-2x fa-angle-up "></i></a>
+<div id="footer-top">
+     <div class="container">
+    <div class="row">
+      <div id="contact" class="col-lg-3 col-md-6 col-sm-12" >
+        <p></p>
+         <h3><i class="fa fa-info-circle"></i> HỖ TRỢ - DỊCH VỤ
+</h3><h4>Tổng đài hỗ trợ: <b>19002091</b><p></p>
+Hà Nội: <b>(024).73045566</b> <p></p>  
+TP.HCM: (028).73045566</h><p></p>
+<strong><span style="font-size: medium;">Đối tác dịch vụ bảo hành</span></strong>
+<p></p>
+Điện Thoại-Laptop
+<p></p>
+  <a class="icon-dtv" href="https://dienthoaivui.com.vn/" rel="nofollow"><img  src="https://dienthoaivui.com.vn/wp-content/uploads/2019/03/logo-DTV_cn1.png"></a>
+</p>
+      </div>
+      <div id="andress" class="col-lg-3 col-md-6 col-sm-12" >
+        <p></p>
+        <h3><i class="fa fa-map-marker"></i> HỆ THỐNG CỬA HÀNG</h3> 
+        <h4>Khu vực Đà Nẵng</h4>
+        <i class="fa fa-location-arrow" ></i>
+        <strong>192 Trần Đại Nghĩa - Tp<br> Đà Nẵng</strong><p></p>
+        <i class="fa fa-location-arrow" ></i>
+        <strong>155 Nguyễn Văn Linh - Tp<br> Đà Nẵng</strong>
+        <p></p>
+ <h4>Khu vực Hồ Chí Minh</h4>
+        <i class="fa fa-location-arrow" ></i>
+        <strong>192 Trần Đại Nghĩa</strong>
+      </div>
+     <div id="contact" class="col-lg-3 col-md-6 col-sm-12" >
+        <p></p>
+        <h3><i class="fa fa-cart-plus"></i> THANH TOÁN MIỄN PHÍ</h3>
+<p></p>
+<img src="https://hoanghamobile.com/Content/v2.0/images/visa_mastercard.gif">
+ <div id="contact" >
+        <p></p>
+        <h3><i class="fa fa-truck"></i> HÌNH THỨC VẬN CHUYỂN</h3>
+<p></p>
+<img src="https://hoanghamobile.com/Content/v2.0/images/logo-vanchuyen.png">
+      </div>
+      </div>
+ <div id="contact" class="col-lg-3 col-md-6 col-sm-12" >
+        <p></p>
+        <h3><i class="fa fa-share"></i> THÔNG TIN LIÊN hiện</h3>
+       <i style="color: gray" class="fa fa-internet-explorer" aria-hidden="true"></i><a style="color: #4bffe3" href=""> http://2tmobile.com</a><p></p>       <i style="color: gray" class="fas fa-envelope"></i><a style="color: #4bffe3" href="mailto:lvtoan.19it4@sict.udn.vn"> lvtoan.19it4@sict.udn.vn</a><p></p>
+       <i style="color: gray" class="fa fa-phone" aria-hidden="true"></i><a style="color: #4bffe3" href="tel:0336-703-571">  0336-703-571</a>
+
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+</body>
+</html>
